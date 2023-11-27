@@ -47,6 +47,8 @@ import data from './data.json';
           padding: .25rem;
           border-radius: .25rem;
           font-weight: 700;
+          opacity : 0;
+          transition: opacity 125ms;
         }
 
         .day {
@@ -61,6 +63,10 @@ import data from './data.json';
           cursor: pointer;
 
           transition: opacity 250ms;
+        }
+
+        &__price:has(+ &__representation:hover) {
+          opacity: 1;
         }
 
         &__representation:hover {
