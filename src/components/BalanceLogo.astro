@@ -1,0 +1,37 @@
+---
+---
+
+<div class="logo">
+    <div id="circle"></div>
+    <div id="ball"></div>
+</div>
+
+<style lang="scss">
+    .logo {
+      position: relative;
+      min-width : 6rem;
+      height : 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @mixin logoElement($translation) {
+        position: absolute;
+        width : 3rem;
+        height : 3rem;
+        border-radius: 100%;
+        transform: translateX($translation);
+      }
+
+      #circle {
+        @include logoElement(-.75rem);
+        border: solid var(--veryPaleOrange) 2px;
+        z-index: 100;
+      }
+
+      #ball {
+        @include logoElement(.75rem);
+        background-color: var(--darkBrown);
+      }
+    }
+</style>
