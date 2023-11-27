@@ -1,0 +1,46 @@
+{
+  "chart": [
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "18%",
+      "day": "mon"
+    },
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "40%",
+      "day": "mon"
+    },
+    {
+      "bg": "--cyan",
+      "price": "",
+      "height": "60%",
+      "day": "mon"
+    },
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "35%",
+      "day": "mon"
+    },
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "30%",
+      "day": "mon"
+    },
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "45%",
+      "day": "mon"
+    },
+    {
+      "bg": "--softRed",
+      "price": "",
+      "height": "38%",
+      "day": "mon"
+    }
+  ]
+}

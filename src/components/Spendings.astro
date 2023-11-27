@@ -1,10 +1,11 @@
 ---
 import Total from './Total.astro';
+import Chart from './Chart.astro';
 ---
 
 <section class="spendings">
     <h2>Spending - Last 7 days</h2>
-    <div class="chart"></div>
+    <Chart />
     <div class="separator"></div>
     <Total />
 </section>
@@ -14,7 +15,7 @@ import Total from './Total.astro';
       width : 28rem;
       height : auto;
       border-radius: 1rem;
-      padding : 1.5rem;
+      padding : 2rem;
       background-color: var(--veryPaleOrange);
       margin-top : 1rem;
       color: var(--darkBrown);

@@ -1,0 +1,48 @@
+---
+import data from './data.json';
+---
+
+<div class="chart">
+    {
+        data.chart.map(item => (
+            <div class="chart__column">
+                <div class="chart__column__representation"></div>
+                <p class="day">{ item.day }</p>
+            </div>
+        ))
+    }
+</div>
+
+<script define:vars={{ data }}>
+    const columns = document.querySelectorAll('.chart__column__representation');
+    for(let i=0; i < data.chart.length; i++) {
+        console.log(columns[i]);
+        columns[i].style.height = data.chart[i].height;
+    }
+</script>
+
+<style lang="scss">
+    .chart {
+      width : 100%;
+      min-height : 16rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__column {
+        height : 15rem;
+        width : calc(100% / 7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        &__representation {
+          width : 75%;
+          background-color: var(--softRed);
+          height : 40%;
+          border-radius: .5rem;
+        }
+      }
+    }
+</style>
