@@ -21,6 +21,14 @@ import Chart from './Chart.astro';
       color: var(--darkBrown);
       font-size: 1rem;
 
+      @media screen and (max-width: 600px) and (orientation: portrait) {
+        width : 95vw;
+      }
+
+      @media screen and (max-width: 300px) {
+        padding : 1rem;
+      }
+
       .separator {
         width : 100%;
         height : 2px;

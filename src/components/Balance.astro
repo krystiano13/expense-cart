@@ -18,6 +18,14 @@ import BalanceLogo from './BalanceLogo.astro';
       border-radius: 1rem;
       padding : 2rem;
 
+      @media screen and (max-width: 600px) and (orientation: portrait) {
+        width : 95vw;
+      }
+
+      @media screen and (max-width: 300px) {
+        padding : 1rem;
+      }
+
       display: flex;
       justify-content: space-between;
       align-items: center;
