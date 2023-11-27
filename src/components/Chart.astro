@@ -6,6 +6,7 @@ import data from './data.json';
     {
         data.chart.map(item => (
             <div class="chart__column">
+                <div class="chart__column__price">${ item.price }</div>
                 <div class="chart__column__representation"></div>
                 <p class="day">{ item.day }</p>
             </div>
@@ -37,6 +38,16 @@ import data from './data.json';
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
+
+        &__price {
+          background-color: var(--darkBrown);
+          color: var(--veryPaleOrange);
+          margin-bottom: .6rem;
+          font-size: .8rem;
+          padding: .25rem;
+          border-radius: .25rem;
+          font-weight: 700;
+        }
 
         .day {
           color: var(--mediumBrown);

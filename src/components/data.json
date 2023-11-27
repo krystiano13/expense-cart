@@ -2,43 +2,43 @@
   "chart": [
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 17.45,
       "height": "18%",
       "day": "mon"
     },
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 34.91,
       "height": "40%",
       "day": "tue"
     },
     {
       "bg": "var(--cyan)",
-      "price": "",
+      "price": 52.36,
       "height": "60%",
       "day": "wed"
     },
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 31.07,
       "height": "35%",
       "day": "thu"
     },
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 23.39,
       "height": "30%",
       "day": "fri"
     },
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 43.28,
       "height": "45%",
       "day": "sat"
     },
     {
       "bg": "var(--softRed)",
-      "price": "",
+      "price": 25.48,
       "height": "38%",
       "day": "sun"
     }
