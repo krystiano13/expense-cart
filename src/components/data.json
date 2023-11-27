@@ -1,46 +1,46 @@
 {
   "chart": [
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "18%",
       "day": "mon"
     },
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "40%",
-      "day": "mon"
+      "day": "tue"
     },
     {
-      "bg": "--cyan",
+      "bg": "var(--cyan)",
       "price": "",
       "height": "60%",
-      "day": "mon"
+      "day": "wed"
     },
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "35%",
-      "day": "mon"
+      "day": "thu"
     },
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "30%",
-      "day": "mon"
+      "day": "fri"
     },
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "45%",
-      "day": "mon"
+      "day": "sat"
     },
     {
-      "bg": "--softRed",
+      "bg": "var(--softRed)",
       "price": "",
       "height": "38%",
-      "day": "mon"
+      "day": "sun"
     }
   ]
 }

@@ -18,6 +18,7 @@ import data from './data.json';
     for(let i=0; i < data.chart.length; i++) {
         console.log(columns[i]);
         columns[i].style.height = data.chart[i].height;
+        columns[i].style.backgroundColor = data.chart[i].bg;
     }
 </script>
 
@@ -39,7 +40,6 @@ import data from './data.json';
 
         &__representation {
           width : 75%;
-          background-color: var(--softRed);
           height : 40%;
           border-radius: .5rem;
         }
