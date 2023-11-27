@@ -65,6 +65,19 @@ import data from './data.json';
           height : 40%;
           border-radius: .25rem;
           cursor: pointer;
+          transform-origin: bottom;
+
+          animation: appear 250ms;
+
+          @keyframes appear {
+            from {
+              transform: scaleY(0);
+            }
+
+            to {
+              transform: scaleY(1);
+            }
+          }
 
           transition: opacity 250ms;
         }
